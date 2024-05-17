@@ -4,6 +4,8 @@ body{
     
 nav{
     display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -80,11 +82,11 @@ nav ul li a:hover{
 
 
 /* Media query */
-@media (min-width: 788px) {
+/* @media (min-width: 788px) {
      nav ul{
         flex-direction: row;
      }
      nav ul li {
         padding: 10px;
      }
-}
+} */
